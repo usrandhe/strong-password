@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import CreatePasswordScreenWithInput from './CreatePasswordScreenWithInput';
+import CreatePasswordScreenWithInput from './components/CreatePasswordScreenWithInput/CreatePasswordScreenWithInput';
 
 function App() {
   return (
