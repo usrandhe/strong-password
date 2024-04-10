@@ -1,13 +1,14 @@
-import { useState } from 'react';
+
 import './App.css';
 import CreatePasswordScreenWithInput from './components/CreatePasswordScreenWithInput/CreatePasswordScreenWithInput';
-
+import PasswordScreen from './components/withSlider/PasswordScreen'
 function App() {
   return (
     <>
-      <p className="read-the-docs">
+      <div className="read-the-docs">
         <CreatePasswordScreenWithInput />
-      </p>
+        <PasswordScreen/>
+      </div>
     </>
   );
 }
